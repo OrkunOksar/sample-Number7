@@ -4,4 +4,6 @@ h2{
 }
 p{
       text-indent: 23px;
+      font-family: monospace;
+      font-weight: bold;
 }
