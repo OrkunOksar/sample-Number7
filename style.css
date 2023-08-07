@@ -4,9 +4,7 @@ h2{
     padding: 12px;
 }
 
-p{
-    color: red;
-}
+
 
 table,td,th{
 border:2px solid black;
@@ -22,4 +20,10 @@ caption{
     margin-top: 12px;
     color: chocolate;
     font-weight: bold;
+}
+
+.addMeCls {
+
+    font-family: monospace;
+    text-indent: 23px;
 }

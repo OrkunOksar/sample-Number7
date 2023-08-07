@@ -1,10 +1,6 @@
-function myFunction(id) {
-    var x = document.getElementById(id);
-    if (x.className.indexOf("w3-show") == -1) {
-      x.className += " w3-show";
-    } else { 
-      x.className = x.className.replace(" w3-show", "");
-    }
-  }
-
-
+const myRule = () => {
+  w3.toggleShow('div.myTable')
+}
+const myFunct = () => {
+  w3.addClass('div[class^="dv"] > p ','addMeCls')
+}
