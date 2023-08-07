@@ -1,9 +1,7 @@
 h3{
-    color: purple;
+   
     text-align: center;
 }
 p{
-      text-indent: 23px;
-      font-family: monospace;
-      font-weight: bold;
+  text-transform: capitalize;
 }
