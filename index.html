@@ -6,8 +6,8 @@
         <link rel="stylesheet" href="style.css">
         <script src="https://www.w3schools.com/lib/w3.js"></script>
         <title>GitHub</title>
-    
-    
+
+
     </head>
     <body>
 
@@ -32,6 +32,21 @@
         <button onclick="myRule()">Toggle Table</button>
 
         <div class="myDIV">
+            <div class="slideDIV">
+
+                <img class="kopecik" src="pics/pexels-alexandra-novitskaya-2951921.jpg" style="width: 50%;">
+                <img class="kopecik" src="pics/pexels-anna-shvets-4587998.jpg" style="width: 50%;">
+                <img class="kopecik" src="pics/pexels-anna-shvets-4588052.jpg" style="width: 50%;">
+
+                <p>
+                <button onclick="myShow.previous()">Previous</button>
+                <button onclick="myShow.next()">Next</button>
+                </p>
+
+            </div>
+
+            <p w3-include-html="content.html"></p>
+
             <div class="dvcls london">
                 <h3>London</h3>
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit, assumenda!</p>
@@ -46,6 +61,7 @@
             </div>
         </div>
         <button onclick="myFunct()">Hide 2 country</button>
+
 
         <script src="myscript.js"></script>
     </body>
