@@ -16,3 +16,10 @@ padding:6px 8px;
 table,tr {
     border-collapse:collapse;
 }
+caption{
+    caption-side: bottom;
+    text-transform: uppercase;
+    margin-top: 12px;
+    color: chocolate;
+    font-weight: bold;
+}
